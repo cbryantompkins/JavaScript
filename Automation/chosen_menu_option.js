@@ -12,7 +12,7 @@ function validateOption() { var menuOption = document.getElementById('ctl00_cphM
 function f(objectID, selectedOption) {
 var menuOption = document.getElementById(objectID).selectedOptions[0].innerText;
 
-if (menuOption.toLowerCase() !== selectedOption) {
+if (menuOption.toLowerCase() !== selectedOption.toLowerCase()) {
   return Promise.reject(
     new Error('Selected Option does not match.')
   );

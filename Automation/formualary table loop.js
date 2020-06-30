@@ -3,7 +3,7 @@ var formRows = formTable.rows
 
         for (var r = 0; r < formRows.length; r++) {
 					for  (var c = 0; c < formRows[r].cells.length; c++) {
-            if (formRows[r].cells[c].innerText==="2020 December MS FRF" && formRows[r].cells[c+1].innerText === "1") {
+            if (formRows[r].cells[c].innerText ==="2020 December MS FRF" && formRows[r].cells[c+1].innerText === "1") {
               formRows[r].cells[0].click();
               // console.log(formRows[r].cells[c].innerText);
             }
