@@ -19,15 +19,16 @@ Date.prototype.subtractDays = function(d) {
    }
 
 var dateArray = getDates(new Date().subtractDays(6), new Date());
-for (i = 0; i < dateArray.length; i++ ) {
+for (let i = 0; i < dateArray.length; i++ ) {
   var date = dateArray[i];
-  var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  var month = months[date.getMonth()];
+  var month = date.toLocaleString('default', {month: 'short'});
   var day = date.getDate().toString();
   var year = date.getFullYear();
   var fullDate = month + " " + day + ", " + year;
   dateArray.splice(i, 1, fullDate);
 }
+
+console.log(dateArray);
 
 var updateDate = document.querySelectorAll('.update-date');
 
