@@ -1,9 +1,9 @@
-- A Method Can Access the Object it was Called On
-- Recall that an object can contain data and the means to manipulate that data.
-- but just how can an object reference its own properties, much less manipulate some of those properties itself?
-- this is all possible with the This keyword!
+/- A Method Can Access the Object it was Called On
+/- Recall that an object can contain data and the means to manipulate that data./
+/- but just how can an object reference its own properties, much less manipulate some of those properties itself?/
+/- /this is all possible with the This keyword!/
 
-using This, methods can directly access the object that it is called on. Consider the following object, triangle:
+/using This, methods can directly access the object that it is called on. Consider the following object, triangle:/
 
 
 const triangle = {
@@ -14,9 +14,7 @@ const triangle = {
 };
 
 
-Note that inside the identify() method, the value 'this' is used.
-- when you say 'this', what youre really saying is "this object" or "the object at hand."
-'this' is what gives the identify() method direct access to the triangle object's properties:
+' is what gives the identify() method direct access to the triangle object's properties:
 
 triangle.identify();
 // 'This is a scalene triangle.'
