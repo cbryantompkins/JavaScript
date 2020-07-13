@@ -2,12 +2,12 @@ var d = new Date();
 var todaysDate = d.getMonth().toString() + "/" + d.getDate().toString() + "/" + d.getFullYear().toString();
 
 return [{
-  "formularyName": "Create Formulary Test FDB " + todaysDate,
+  "formularyName": "Formulary Test FDB " + todaysDate,
   "drugDB": 0,
   "classSys": 2
 },
   {
-  "formularyName": "Create Formulary Test MS " + todaysDate,
+  "formularyName": "Formulary Test MS " + todaysDate,
   "drugDB": 1,
   "classSys": 1
 }];
