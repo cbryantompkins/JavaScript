@@ -10,6 +10,9 @@ const getTable_1 = function () {
 
 }
 
+exportsTest.tableArray = tableArray
+
+
 const tableArray_2 = []
 
 const getTable_2 = function () {
