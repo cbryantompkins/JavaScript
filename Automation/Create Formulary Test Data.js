@@ -1,5 +1,6 @@
 var d = new Date();
-var todaysDate = d.getMonth().toString() + "/" + d.getDate().toString() + "/" + d.getFullYear().toString();
+var mnth = d.getMonth()+1;
+var todaysDate = mnth.toString() + "/" + d.getDate().toString() + "/" + d.getFullYear().toString();
 
 return [{
   "formularyName": "Formulary Test FDB " + todaysDate,
