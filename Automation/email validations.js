@@ -69,3 +69,7 @@ var linksElements = doc.querySelectorAll("a");
 firstLinkHref = linksElements[0].getAttribute('href');
 console.log(firstLinkHref);
 exportsTest.firstLink = firstLinkHref;
+
+
+//navigate in next step // add firstLinkHref under storedLink parameter in Testim
+window.location.href = storedLink
