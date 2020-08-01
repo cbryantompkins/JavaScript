@@ -45,10 +45,9 @@ for (var i = 0; i < menu.options.length; i++) {
 exportsTest.reports = reportsArray;
 
 
-//Select Report/Operation selectReports
+//Select Report/Operation
 //takes each report option and marks it true, then fires the onchange
 var menu = document.getElementById('ctl00_cphMainContent_ddlReports');
-for (var i = 0; i < menu.options.length; i++) {
   menu.options[i].selected = true;
   menu.onchange()
 
