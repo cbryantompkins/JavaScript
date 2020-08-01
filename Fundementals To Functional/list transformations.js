@@ -2,7 +2,7 @@
 function CreateSuspectObjects(name) {
   return {
     name: name,
-    //extracts thier last name as a coplor
+    //extracts thier last name as a color
     color: name.split(' ')[1],
 //calls the speak methjod to have them say thier name
     speak() {
