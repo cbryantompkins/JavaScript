@@ -22,3 +22,19 @@ var {first, second} = {first: 0, second: 1}
 
 //key: first, value: 0
 //    second, value: 1
+var suspects = [
+        {
+            name: "Rusty",
+            color: "orange"
+        }, {
+            name: "Miss Scarlet",
+            color: "red"
+        }
+    ]
+//simple way to desctructure
+var [color, color2] = [suspects[0].color, suspects[1].color]
+
+//destructured way of extracting color variables -  best practice
+//the structure is sort of backwards. it finds 'suspects' then color key in order
+var [{color: firstColor}, {color: secondColor}] = suspects;
+//firstColor = orange ; secondColor = red
