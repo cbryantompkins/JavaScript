@@ -18,6 +18,7 @@ for (var i = 0; i < detailsRows.length-1; i++) {
       throw new Error('Lives sort order incorrect.');
   }
  }
+
 }
 
 
@@ -37,4 +38,5 @@ for (var i = 0; i < detailsRows.length-1; i++) {
       throw new Error('Controller sort order incorrect.');
   }
  }
+
 }
