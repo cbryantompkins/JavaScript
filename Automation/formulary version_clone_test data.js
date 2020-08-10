@@ -14,7 +14,7 @@ return [{
 //select formulary by name
 function clickSelect(tableID, formName) {
   var newVersionTable = document.getElementById(tableID).getElementsByTagName('tbody')[0];
-  var newVersionRows = exportTable.rows
+  var newVersionRows = newVersionTable.rows
   for (var r = 0; r <newVersionRows.length; r++) {
     for (var c = 0; c < newVersionRows[r].cells.length; c++) {
       if (newVersionRows[r].cells[c].innerText === formName) {
