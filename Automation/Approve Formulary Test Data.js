@@ -6,24 +6,28 @@ return [{
   "formName": "Formulary Test FDB " + todaysDate,
   'version': 1,
   'tableID_1': 'ctl00_cphMainContent_flCurrent_rgFormularies_ctl00',
-  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00'
-  //reject radio button
+  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00',
   'radioButton': 'ctl00_cphMainContent_rblApproveReject_1'
 },
   {
   "formName": "Formulary Test FDB " + todaysDate,
   'version': 1,
   'tableID_1': 'ctl00_cphMainContent_flCurrent_rgFormularies_ctl00',
-  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00'
-  //approve radio button
+  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00',
   'radioButton': 'ctl00_cphMainContent_rblApproveReject_0'
 },
   {
   "formName": "Formulary Test MS " + todaysDate,
   'version': 1,
   'tableID_1': 'ctl00_cphMainContent_flCurrent_rgFormularies_ctl00',
-  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00'
-  //approve radio button
+  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00',
+  'radioButton': 'ctl00_cphMainContent_rblApproveReject_0'
+},
+  {
+  "formName": "Formulary Test HPMS " + todaysDate,
+  'version': 1,
+  'tableID_1': 'ctl00_cphMainContent_flCurrent_rgFormularies_ctl00',
+  'tableID_2': 'ctl00_cphMainContent_rgApprovalQueue_ctl00',
   'radioButton': 'ctl00_cphMainContent_rblApproveReject_0'
 }];
 

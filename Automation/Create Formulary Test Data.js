@@ -13,7 +13,14 @@ return [{
   "classSys": 1
 }];
 
+//Create Formulary - File Upload - HPMS data
+var d = new Date();
+var mnth = d.getMonth()+1;
+var todaysDate = mnth.toString() + "/" + d.getDate().toString() + "/" + d.getFullYear().toString();
 
+return {
+  "formularyName": "Formulary Test HPMS " + todaysDate,
+}
 
 // // FDB
 // var d = new Date();
